@@ -1,0 +1,37 @@
+/* 
+em - RELATIVE depends on parent
+1em = 16px default browser style
+1em = base value
+ */
+/* 
+ relative to screen-size
+ percent of screen
+ vh - "view height"
+ vw - "view width"
+ */
+* {
+  margin: 0;
+}
+div {
+  font-size: 10px;
+}
+.relative {
+  font-size: 2em;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+/* calc() */
+.navbar {
+  background: blue;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+.banner {
+  width: 100vw;
+  min-height: (100vh-100px);
+  background: red;
+}
